@@ -1,7 +1,7 @@
 {
-	"name": "repo-template",
+	"name": "get-readme",
 	"version": "1.0.0",
-	"description": "Project boilerplate for easily create and share your new cool modules. ♻️ ♻️",
+	"description": "CLI tool to generate an esthetic README file 🔖🔖",
 	"main": "lib/index.js",
 	"files": [
 		"lib/"
@@ -41,8 +41,5 @@
 		"eslint-plugin-prettier": "^3.1.0",
 		"eslint-watch": "^5.1.2",
 		"prettier": "^1.18.2"
-	},
-	"dependencies": {
-		"replace-in-file": "^4.1.0"
 	}
 }
