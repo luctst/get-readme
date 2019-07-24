@@ -1,0 +1,48 @@
+{
+	"name": "repo-template",
+	"version": "1.0.0",
+	"description": "Project boilerplate for easily create and share your new cool modules. ♻️ ♻️",
+	"main": "lib/index.js",
+	"files": [
+		"lib/"
+	],
+	"engines": {
+		"node": ">= 10.0.0"
+	},
+	"eslintIgnore": [
+		"./lib/build/"
+	],
+	"scripts": {
+		"test": "ava --verbose ./test/*.js",
+		"test:watch": "ava --watch --verbose ./test/*.js",
+		"lint": "npx eslint --cache './lib/**/*.js'",
+		"lint:watch": "esw -w --clear --color --cache './lib/**/*.js'",
+		"lint:fix": "npx eslint --fix './lib/**/*.js'",
+		"style": "prettier -c './lib/**/*.js'",
+		"style:fix": "prettier --c --write './lib/**/*.js'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://www.github.com/luctst/repo-template"
+	},
+	"keywords": [],
+	"author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://www.github.com/luctst/repo-template/issues"
+	},
+	"homepage": "https://www.github.com/luctst/repo-template",
+	"devDependencies": {
+		"ava": "^2.1.0",
+		"eslint": "^6.0.1",
+		"eslint-config-airbnb-base": "^13.2.0",
+		"eslint-config-prettier": "^6.0.0",
+		"eslint-plugin-import": "^2.18.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-watch": "^5.1.2",
+		"prettier": "^1.18.2"
+	},
+	"dependencies": {
+		"replace-in-file": "^4.1.0"
+	}
+}
