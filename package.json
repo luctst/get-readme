@@ -2,7 +2,7 @@
 	"name": "get-readme",
 	"version": "1.0.0",
 	"description": "CLI tool to generate an esthetic README file 🔖🔖",
-	"main": "lib/index.js",
+	"main": "lib/cli.js",
 	"bin": "./lib/cli.js",
 	"files": [
 		"lib/"
