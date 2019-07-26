@@ -13,6 +13,7 @@
 				"allowShortCircuit": true,
 				"allowTernary": true
 			}
-		]
+		],
+		"no-console": 0
 	}
 }
