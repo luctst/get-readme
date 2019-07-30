@@ -27,7 +27,18 @@
 		"type": "git",
 		"url": "https://www.github.com/luctst/repo-template"
 	},
-	"keywords": [],
+	"keywords": [
+		"cli",
+		"cli-tool",
+		"generate-readme",
+		"readme",
+		"readme-files",
+		"readme-templates",
+		"templates",
+		"cli-template",
+		"templates",
+		"get-readme"
+	],
 	"author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
 	"license": "MIT",
 	"bugs": {
