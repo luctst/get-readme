@@ -4,28 +4,43 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Twitter](https://img.shields.io/twitter/follow/luctstt.svg?label=Follow&style=social)](https://twitter.com/luctstt)
 
-*Write later*
+*Quickly generate readable and well documented README file. Because documenting is a complicated task get-readme is a tiny CLI module which allows you to choose between diferents README templates for you to keep a coherence between your different projects.*
 
 ## Install
-Explain to your users how they can install your product :)
+> **Note** - If you had `npm@5.2.0` or more you can skip this section.
+
+You can install get-readme by entering this command
+```
+npm install -g get-readme
+```
+
+By typing this command you ask your OS system to install a package in global mode on your computer some errors may happen due to some permissions, feel free to check how to allow the global installation of a nodejs package according to your OS system.
+
+> **Note** - `npm@5.2.0` introduce a new way to handle packages which allows you to use packages without the need to install it globally, if you don't have this version it's recommended to install it by running `npm install -g npm@latest`
 
 ## Usage
-In this section you can write some popular examples about how you can interact with the project. It's advisable to write some code here.
+Get-readme is really simple to use:
+
+1. Create a new folder.
+2. Open your terminal and go inside the new folder.
+3. If you had npx:
+	* if you had npx run `npx get-readme` and follow the instructions.
+4. If you don't have npx:
+	* Check the install section to install the package globally.
+	* Then execute the tasks number 1 and 2.
+	* Run `get-readme` in your terminal.
 
 ## Features
-Display a list of features. you can also include the next features you're working on.
+* Fast.
+* Lightweight.
+* Quickly generate your README file.
+* Good for all kind of projects.
 
-## Documentation
-If your project has some documentation you can link anything here.
-
-## API
-You have a small project or you'll like to share the API of your project ? This is where it's happen.
+### In coming
+* More templates.
 
 ## Contributing
-If your project is open source you can indicate how the others can contribute.
-
-## Maintainers
-List of maintainers.
+Is is really important to read the [CONTRIBUTING](https://github.com/luctst/get-readme/blob/master/.github/CONTRIBUTING.md) file if you wish to contribute to this project.
 
 ## License
-Enter what king of license you're using.
+MIT [LucTst](https://github.com/luctst/get-readme/blob/master/.github/LICENSE)
