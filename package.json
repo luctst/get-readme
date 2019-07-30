@@ -1,5 +1,5 @@
 {
-	"name": "getreadme",
+	"name": "get-good-readme",
 	"version": "1.0.0",
 	"description": "CLI tool to generate an esthetic README file 🔖🔖",
 	"main": "lib/cli.js",
@@ -37,7 +37,7 @@
 		"templates",
 		"cli-template",
 		"templates",
-		"getreadme"
+		"get-good-readme"
 	],
 	"author": "LucTst <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
 	"license": "MIT",

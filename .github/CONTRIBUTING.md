@@ -1,5 +1,5 @@
 # Contributing
-we are happy that you want to contribute to this project, first of all we know it is a bit painful but please it is important to read the [code of conduct file](https://github.com/luctst/getreadme/blob/master/.github/CODE_OF_CONDUCT.md).
+we are happy that you want to contribute to this project, first of all we know it is a bit painful but please it is important to read the [code of conduct file](https://github.com/luctst/get-good-readme/blob/master/.github/CODE_OF_CONDUCT.md).
 
 ## How to contribute ?
 It is possible to contribute in many ways, either you want to solve a problem or you have an idea and you'll like to add it in the project.

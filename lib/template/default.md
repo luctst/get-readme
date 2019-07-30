@@ -25,4 +25,4 @@ List of maintainers.
 ## License
 Enter what king of license you're using.
 
-<p style="font-size:8px;text-align:center;margin-top:50px;">File generated with <a href="https://github.com/luctst/getreadme">getreadme</a> module.</p>
+<p style="font-size:8px;text-align:center;margin-top:50px;">File generated with <a href="https://github.com/luctst/get-good-readme">get-good-readme</a> module.</p>
