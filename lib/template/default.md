@@ -23,6 +23,6 @@ If your project is open source you can indicate how the others can contribute.
 List of maintainers.
 
 ## License
-Enter what king of license you're using.
+Enter what kind of license you're using.
 
 <p style="font-size:8px;text-align:center;margin-top:50px;">File generated with <a href="https://github.com/luctst/get-good-readme">get-good-readme</a> module.</p>
