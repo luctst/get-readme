@@ -1,6 +1,6 @@
 {
 	"name": "get-good-readme",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "CLI tool to generate an esthetic README file 🔖🔖",
 	"main": "lib/cli.js",
 	"bin": "./lib/cli.js",
@@ -16,7 +16,7 @@
 	],
 	"scripts": {
 		"test": "ava --verbose ./test/*.js",
-		"test:watch": "ava --watch --verbose ./test/*.js",
+		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
 		"lint": "npx eslint --cache './lib/**/*.js'",
 		"lint:watch": "esw -w --clear --color --cache './lib/**/*.js'",
 		"lint:fix": "npx eslint --fix './lib/**/*.js'",
