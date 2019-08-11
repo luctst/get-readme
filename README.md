@@ -40,7 +40,7 @@ get-good-readme is really simple to use:
 * More templates.
 
 ## Contributing
-Is is really important to read the [CONTRIBUTING](https://github.com/luctst/get-good-readme/blob/master/.github/CONTRIBUTING.md) file if you wish to contribute to this project.
+You've found an issue ? A new idea for the project and you want contribute ? It's nice, but before coding make sure you have read the [CONTRIBUTING.md](https://github.com/luctst/get-readme/blob/master/.github/CONTRIBUTING.md) file it is important.
 
 ## License
 MIT [LucTst](https://github.com/luctst/get-good-readme/blob/master/.github/LICENSE)
