@@ -2,7 +2,7 @@ import test from "ava";
 import choices from "../lib/utils/choices";
 import {readdirSync} from "fs";
 
-test.serial("Choices array is correct ?", t => {
+test.serial("Does the objects in choices array are correct ?", t => {
 	choices.map(el => {
 		t.truthy(el.name);
 		t.truthy(el.description);
@@ -10,10 +10,13 @@ test.serial("Choices array is correct ?", t => {
 	});
 });
 
-test.serial("Check if the choices array is at the same level than template folder", t => {
-	const checkIfTemplate = Object.values(choices).map(el => el.templateName);
+test.serial("Does the template folder includes all the template written by choices array ?", t => {
+	const choicesTemplateName = Object.values(choices).map(choicesItem => choicesItem.templateName);
 
-	readdirSync("./lib/template/").map(el => {
-		checkIfTemplate.includes(el) ? t.pass("Same level") : t.fail("Error, check if choices hold one objet per files in template folder");
+t.log(choicesTemplateName);
+	readdirSync("lib/template/").map(template => {
+		choicesTemplateName.includes(template) ?
+			t.pass("Template folder is at the same level") :
+				t.fail("Template folder is not at the same level");
 	});
 });
