@@ -15,6 +15,7 @@
 *{{goal}}*
 
 ## Motivation
+Why you're creating this project ?
 
 ## Features
 Include the features you're working on.
