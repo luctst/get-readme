@@ -23,4 +23,4 @@ Include the features you're working on.
 ## License
 Enter what kind of license you're using.
 
-<p style="font-size:8px;text-align:center;margin-top:50px;">File generated with <a href="https://github.com/{{githubUser}}/get-good-readme">get-good-readme</a> module.</p>
+<p style="font-size:8px;text-align:center;margin-top:50px;">File generated with <a href="https://github.com/luctst/get-good-readme">get-good-readme</a> module.</p>
