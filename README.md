@@ -1,12 +1,46 @@
-# get-good-readme
+<div align="center">
+  <a href="#">
+  	<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy-downsized.gif" alt="Logo project" height="160" />
+  </a>
+  <br>
+  <br>
+  <p>
+    <b>get-readme</b>
+  </p>
+  <p>
+     <i>Quickly generate readable and well documented README file. Because documenting is a complicated task get-good-readme is a tiny CLI module which allows you to choose between diferents README templates for you to keep a coherence between your different projects.</i>
+  </p>
+  <p>
+
 [![Build Status](https://travis-ci.com/luctst/get-readme.svg?branch=master)](https://travis-ci.com/luctst/get-readme)
+[![NPM version](https://img.shields.io/npm/v/get-readme?style=flat-square)](https://img.shields.io/npm/v/get-readme?style=flat-square)
+[![Package size](https://img.shields.io/bundlephobia/min/get-readme)](https://img.shields.io/bundlephobia/min/get-readme)
 [![Dependencies](https://img.shields.io/david/luctst/get-readme.svg?style=popout-square)](https://david-dm.org/luctst/get-readme)
+[![devDependencies Status](https://david-dm.org/luctst/get-readme/dev-status.svg?style=flat-square)](https://david-dm.org/luctst/get-readme?type=dev)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Twitter](https://img.shields.io/twitter/follow/luctstt.svg?label=Follow&style=social)](https://twitter.com/luctstt)
 
-*Quickly generate readable and well documented README file. Because documenting is a complicated task get-good-readme is a tiny CLI module which allows you to choose between diferents README templates for you to keep a coherence between your different projects.*
+  </p>
+</div>
 
-## Install
+---
+
+**Content**
+
+* [Features](##features)
+* [Install](##install)
+* [Usage](##usage)
+* [Exemples](##exemples)
+* [Contributing](##contributing)
+* [Maintainers](##maintainers)
+
+## Features ✨
+* Fast.
+* Lightweight.
+* Quickly generate your README file.
+* Good for all kind of projects.
+
+## Install 🐙
 > **Note** - If you had `npm@5.2.0` or more you can skip this section.
 
 You can install get-good-readme by entering this command
@@ -14,13 +48,7 @@ You can install get-good-readme by entering this command
 npm install -g get-good-readme
 ```
 
-By typing this command you ask your OS system to install a package in global mode on your computer some errors may happen due to some permissions, feel free to check how to allow the global installation of a nodejs package according to your OS system.
-
-> **Note** - `npm@5.2.0` introduce a new way to handle packages which allows you to use packages without the need to install it globally, if you don't have this version it's recommended to install it by running `npm install -g npm@latest`
-
-## Usage
-get-good-readme is really simple to use:
-
+## Usage 💡
 1. Create a new folder.
 2. Open your terminal and go inside the new folder.
 3. If you had npx:
@@ -30,17 +58,31 @@ get-good-readme is really simple to use:
 	* Then execute the tasks number 1 and 2.
 	* Run `get-good-readme` in your terminal.
 
-## Features
-* Fast.
-* Lightweight.
-* Quickly generate your README file.
-* Good for all kind of projects.
 
-### In coming
-* More templates.
+## Exemples 🖍
+```
+npx get-good-readme -p=project-name -g=github-user -d="describe why you're creating this project."
+```
 
-## Contributing
-You've found an issue ? A new idea for the project and you want contribute ? It's nice, but before coding make sure you have read the [CONTRIBUTING.md](https://github.com/luctst/get-readme/blob/master/.github/CONTRIBUTING.md) file it is important.
+## Contributing 🍰
+Please make sure to read the [Contributing Guide](https://github.com/luctst/get-readme/blob/master/.github/CONTRIBUTING.md) before making a pull request.
 
-## License
-MIT [LucTst](https://github.com/luctst/get-good-readme/blob/master/.github/LICENSE)
+Thank you to all the people who already contributed to this project!
+
+## Maintainers 👷
+List of maintainers, replace all `href`, `src` attributes by your maintainers datas.
+<table>
+  <tr>
+    <td align="center"><a href="https://lucastostee.now.sh/"><img src="https://avatars3.githubusercontent.com/u/22588842?s=460&v=4" width="100px;" alt="Tostee Lucas"/><br /><sub><b>Tostee Lucas</b></sub></a><br /><a href="#" title="Code">💻</a></td>
+  </tr>
+</table>
+
+## License ⚖️
+MIT
+
+---
+<div align="center">
+	<b>
+		<a href="https://www.npmjs.com/package/get-good-readme">File generated with get-good-readme module</a>
+	</b>
+</div>
