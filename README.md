@@ -8,7 +8,7 @@
     <b>get-readme</b>
   </p>
   <p>
-     <i>Quickly generate readable and well documented README file. Because documenting is a complicated task get-good-readme is a tiny CLI module which allows you to choose between diferents README templates for you to keep a coherence between your different projects.</i>
+     <i>Quickly generate readable and well documented README file. Because documenting is a complicated task get-good-readme is a tiny CLI module which allows you to choose between different README templates for you to keep a coherence between your different projects.</i>
   </p>
   <p>
 
@@ -30,7 +30,7 @@
 * [Features](##features)
 * [Install](##install)
 * [Usage](##usage)
-* [Exemples](##exemples)
+* [Examples](##examples)
 * [Contributing](##contributing)
 * [Maintainers](##maintainers)
 
@@ -59,7 +59,7 @@ npm install -g get-good-readme
 	* Run `get-good-readme` in your terminal.
 
 
-## Exemples 🖍
+## Examples 🖍
 ```
 npx get-good-readme -p=project-name -g=github-user -d="describe why you're creating this project."
 ```
